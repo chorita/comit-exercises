@@ -2,11 +2,12 @@ h1{
     text-align: center;
     }
 nav{
- color: red
+    text-align: center;
+    color: red
     }
 p {
-font-size: 18px;
+    font-size: 18px;
     } 
 .navlink {
-color: #00aced
+    color: #00aced
     }
