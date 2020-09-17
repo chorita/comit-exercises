@@ -3,8 +3,10 @@ h1{
     }
 nav{
     text-align: center;
-    color: red
     }
+a{
+    color:red
+}
 p {
     font-size: 18px;
     } 
