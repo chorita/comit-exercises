@@ -1,18 +1,43 @@
+html {
+    height: 100%;
+}
 header {
+    background-color: black;
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1px;
-    margin-top: 10px;
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green; 
+    border-right: 10px solid green;
+    padding: 10px;
+    margin-top: 20px;
+    }   
+a {
+color: white;
 }
-title {
+img {
+ max-width: 450px;
+ max-height: 250px;
+ width: auto;
+ height: auto;
+}
+main {
+    background-color: whitesmoke;
+    color: black;
     text-align: center;
 }
-p {
+footer {
+    background-color: black;
+    color: white;
     text-align: center;
-    }
-body {
-    text-align: center;
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green; 
+    border-right: 10px solid green;
+    padding: 10px;
+    margin-top: 20px;
 }
