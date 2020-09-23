@@ -1,19 +1,19 @@
-const monthOfBirth = 'June'
-const firstName ='Carlos'
-const lastName ='Horita'
+const monthOfBirth = 'June';
+const firstName ='Carlos';
+const lastName ='Horita';
 let city;
 city ='Winnipeg';
 let age;
-age ='35'
+age ='35';
 let nextCity;
-nextCity ='Winnipeg'
+nextCity ='Winnipeg';
 
-console.log('monthOfBirth:June, monthOfBirth');
-console.log('firstName:Carlos, firstName');
-console.log('lastName:Horita, lastName');
-console.log('city:Winnipeg, city');
-console.log('age:35, age');
-console.log('nextCity:city, nextCity');
+console.log('Month of Birth', monthOfBirth);
+console.log('First Name', firstName);
+console.log('Last Name', lastName);
+console.log('City', city);
+console.log('Age', age);
+console.log('Next City', nextCity);
 
 alert(monthOfBirth)
 alert(firstName)
@@ -21,5 +21,5 @@ alert(lastName)
 alert(city)
 alert(age)
 alert(nextCity)
-alert(`my name is ${firstName + lastName}`);
+alert('my name is ${firstName + lastName}');
 
