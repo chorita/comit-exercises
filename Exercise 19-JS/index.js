@@ -1,12 +1,10 @@
-const monthOfBirth = 'June';
+"use strict";
+const monthOfBirth ='June';
 const firstName ='Carlos';
 const lastName ='Horita';
-let city;
-city ='Winnipeg';
-let age;
-age ='35';
-let nextCity;
-nextCity ='Winnipeg';
+let city='Winnipeg';
+let age=35;
+let nextCity='Winnipeg';
 
 console.log('Month of Birth', monthOfBirth);
 console.log('First Name', firstName);
@@ -21,5 +19,5 @@ alert(lastName)
 alert(city)
 alert(age)
 alert(nextCity)
-alert('my name is ${firstName + lastName}');
+alert( 'My name is ${firstName + lastName}' );
 
