@@ -1,0 +1,175 @@
+html {
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Regular', 'Lucida Grande';
+}
+header {
+    width: auto;
+    height: 350px;
+    font-size: 20px;
+    background-image: url("fish-spots-lines-background-wallpaper-preview.jpg");
+    background-size: cover;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke; 
+    border-right: 2px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+div.div1 {
+    text-align: center;
+    }
+div.div2 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    text-align: right;
+    font-size: 36px;
+}
+#rborder {
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    max-width: 200px;
+    max-height: 300px;
+}
+a {
+    color:white;
+    transition: .5s;
+    font-size: 20;
+}
+a:hover {
+    color: black
+}
+main {
+    width: auto;
+    height: auto;
+    background-image: url(creative.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 15px;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke; 
+    border-right: 2px solid whitesmoke;
+}
+.main-banner h1 {
+    font-size: 70px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.p1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.p2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.p3 {
+    text-align: center;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    width: 46%;
+    margin: 10px;
+    border: 2px solid black;
+}
+.box1 {
+    background-color: grey;
+    background-image: url(gamer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 420px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.box2 {
+    background-color: grey;
+    background-image: url(geek.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 270px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.box3 {
+    background-color: grey;
+    background-image: url(gearhead.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 360px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.box4 {
+    background-color: grey;
+    background-image: url(foodie.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 320px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.box5 {
+    background-color: grey;
+    background-image: url(punkrocker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.box6 {
+    background-color: grey;
+    background-image: url(doglover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 270px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+}
+footer {
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke; 
+    border-right: 2px solid whitesmoke;
+}
+.main-about-p1 {
+    text-align: center;
+    font-size: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.main-about h1 {
+    font-size: 70px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.main-contact-p1 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.main-contact h1 {
+    font-size: 18px;
+    text-align: center;
+}
