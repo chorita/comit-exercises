@@ -1,12 +1,17 @@
 "use strict";
 
-let x = 0;
-for (x = 0; x < 400; x++) {
-    console.log(x);
-    if (x > 401) { break; }
+//Add all the numbers bettwen 0 and 1000 using for statement
+  let x=0;
+let sum = 0;
+for (x = 0; x < 1000; x++) {
+    sum += x;
+    if (sum > 400) { break; }
   }
+  console.log(sum);
+  console.log(x);
 
-// While - Show numbers from 0 to 10
+
+  // While - Show numbers from 0 to 10
 let i = 0;
 while (i <= 10) {
 console.log(i);
